@@ -24,12 +24,12 @@ class Owner
     Dog.all.select {|dog_obj| dog_obj.owner == self}
   end
   
-  def buy_cat(cat_obj)
-    Cat.new(cat_obj, self)
+  def buy_cat(name)
+    Cat.new(name, self)
   end
   
-  def buy_dog(dog_obj)
-    
+  def buy_dog(name)
+    Dog.new(name, self)
   end
   
   def walk_dogs
