@@ -1,8 +1,11 @@
 class Owner
   
+  #### Attributes ####
   attr_reader :name, :species
   @@all = []
   
+  
+  #### Instance Methods ####
   def initialize(name)
     @name = name
     @species = "human"
@@ -13,6 +16,8 @@ class Owner
     "I am a #{@species}."
   end
   
+  
+  #### Class Methods ####
   def self.all
     @@all
   end
