@@ -23,7 +23,7 @@ class Owner
   end
   
   def self.count
-    
+    self.all.
   end
   
   def self.reset_all
