@@ -24,6 +24,30 @@ class Owner
     Dog.all.select {|dog_obj| dog_obj.owner == self}
   end
   
+  def buy_cat
+    
+  end
+  
+  def buy_dog
+    
+  end
+  
+  def walk_dogs
+    
+  end
+  
+  def feed_cats
+    
+  end
+  
+  def sell_pets
+    
+  end
+  
+  def list_pets
+    
+  end
+  
   
   #### Class Methods ####
   def self.all
