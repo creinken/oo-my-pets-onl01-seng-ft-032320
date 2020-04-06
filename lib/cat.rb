@@ -1,3 +1,18 @@
 class Cat
-  # code goes here
+    
+  #### Attributes ####
+  attr_reader :name
+  attr_accessor :owner
+  @@all = []
+  
+  
+  #### Instance Methods ####
+  def initialize(name, owner)
+    @name = name
+    @owner = owner
+    @@all << self
+  end
+  
+  
+  #### Class Methods ####
 end
