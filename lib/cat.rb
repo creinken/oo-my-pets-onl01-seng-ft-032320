@@ -16,4 +16,7 @@ class Cat
   
   
   #### Class Methods ####
+  def self.all
+    @@all
+  end
 end
