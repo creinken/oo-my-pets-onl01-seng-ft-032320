@@ -27,6 +27,6 @@ class Owner
   end
   
   def self.reset_all
-    self.all.delete
+    self.all = []
   end
 end
