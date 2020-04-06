@@ -46,7 +46,7 @@ class Owner
     my_pets = []
     my_pets << dogs
     my_pets << cats
-    my_pets.each do |pet| 
+    my_pets.flatten.each do |pet| 
       pet.mood = "nervous"
       pet.owner = nil
     end
