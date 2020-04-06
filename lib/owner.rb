@@ -20,6 +20,10 @@ class Owner
     Cat.all.select {|cat_obj| cat_obj.owner == self}
   end
   
+  def dogs
+    Dog.all.select {|dog_obj| dog_obj.owner == self}
+  end
+  
   
   #### Class Methods ####
   def self.all
