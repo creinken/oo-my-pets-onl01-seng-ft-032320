@@ -34,12 +34,12 @@ class Owner
   
   def walk_dogs
     my_dogs = dogs
-    my_dogs.each {|dog_obj| dog_obj.mood = "happy"
+    my_dogs.each {|dog_obj| dog_obj.mood = "happy"}
   end
   
   def feed_cats
     my_cats = cats
-    my_cats.each {|cat_obj| cat_obj.mood = "happy"
+    my_cats.each {|cat_obj| cat_obj.mood = "happy"}
   end
   
   def sell_pets
