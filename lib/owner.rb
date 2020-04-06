@@ -16,6 +16,10 @@ class Owner
     "I am a #{@species}."
   end
   
+  def cats
+    Cat.all.select {|cat_obj| cat_obj.owner == self}
+  end
+  
   
   #### Class Methods ####
   def self.all
